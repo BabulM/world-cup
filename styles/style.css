@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+body{
+    font-family: 'Secular One', sans-serif;
+}
+
+.great{
+    background-color: rgb(187, 155, 155);
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.great2{
+
+}
+.link-button{
+    text-decoration: none;
+    background-color: crimson;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+.blog a{
+   text-decoration: none;
+   margin-top: 0px;
+}
+.blog2, .blog3, .blog4{
+    width: 8%;
+    height: 10px;
+    background-color: bisque;
+    margin-bottom: 2px;
+    padding: 15px 50px;
+    border-radius: 10px;
+    text-align: center;
+}
+/* -------playground image--------------- */
+.md-salah3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.transfer button{
+    border-radius: 5px;
+}
+.icon, .fa-regular{
+   margin-left: 20px;
+}
+/* ----------footer-------- */
+footer{
+    margin-top: 60px;
+    background-color: royalblue;
+}
+    footer h2{
+        text-align: center;
+    }
+    footer, .goal a{
+        text-align: center;
+        text-decoration: none;
+        margin-right: 20px;
+    }
+    .goal2 i{
+        margin-left: 10px;
+    }

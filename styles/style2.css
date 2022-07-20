@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+body{
+    font-family: 'Secular One', sans-serif;
+}
+/* ---------header start----------- */
+.main{
+    width: 1200px;
+   margin-left: 80px;
+}
+header{
+    background-color: rgb(187, 155, 155);
+    border-radius: 20px;
+    margin-right:  
+}
+.special1{ 
+    display: flex; 
+    padding-top: 20px;
+    padding-left: 40px;
+}
+.link-button{
+    text-decoration: none;
+    background-color: crimson;
+  padding: 10px 30px;
+  border-radius: 10px;
+}
+/* ---------------header end----------------- */
+/* ---------upcoming match start----------- */
+.special{
+    width: 1200px;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 80px; 
+}
+.blog{
+    background-color: black;
+    width: 31%;
+    height: 180px;
+    text-align: center;
+    padding-top: 1px;
+}
+.blogs, .blogs1, .blogs2, .blogs3{
+        margin-top: 30px;  
+}
+.blogs1 a{
+    padding-left: 10px 20px;
+    margin: 10px 40px;
+    background-color: aliceblue;   
+}
+.blogs2 a{
+    padding: 10px 60px;
+    margin: 10px 40px;
+    background-color: aliceblue;      
+}
+.blogs3 a{
+    padding: 10px 75px;      
+}
+.md-salah3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 30px;      
+             
+}
+/* ------------upcoming match end--------- */
+        /* ------------footer :start--------- */
+footer{
+    margin-top: 60px;
+    background-color: royalblue;      
+}
+footer h2{
+    text-align: center;         
+}
+footer, .goal a{
+    text-align: center;
+    text-decoration: none;
+    margin-right: 20px;              
+}
+.goal2 i{
+    margin-left: 10px;
+}
+/* ----------footer end--------------- */

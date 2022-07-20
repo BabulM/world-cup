@@ -2,46 +2,71 @@
 body{
     font-family: 'Secular One', sans-serif;
 }
-
-.great{
-    background-color: rgb(187, 155, 155);
-    padding-top: 20px;
-    padding-left: 20px;
+/* ---------header start----------- */
+.main{
+    width: 1300px;
+   margin-left: 80px;
 }
-.great2{
-
+header{
+    background-color: rgb(187, 155, 155);
+    border-radius: 20px;
+    margin-right:  
+}
+.special1{ 
+    display: flex; 
+    padding-top: 20px;
+    padding-left: 40px;
 }
 .link-button{
     text-decoration: none;
     background-color: crimson;
-  padding: 10px 20px;
+  padding: 10px 30px;
   border-radius: 10px;
 }
-.blog a{
-   text-decoration: none;
-   margin-top: 0px;
+/* ---------------header end----------------- */
+/* -------playground image start--------------- */
+.special{
+    width: 1300px;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 80px; 
 }
-.blog2, .blog3, .blog4{
-    width: 8%;
-    height: 10px;
-    background-color: bisque;
-    margin-bottom: 2px;
-    padding: 15px 50px;
-    border-radius: 10px;
-    text-align: center;
+.blog{
+background-color: black;
+width: 31%;
+height: 180px;
+text-align: center;
+padding-top: 1px;
 }
-/* -------playground image--------------- */
+.blogs, .blogs1, .blogs2, .blogs3{
+    margin-top: 30px;  
+}
+.blogs1 a{
+padding-left: 10px 20px;
+margin: 10px 40px;
+background-color: aliceblue;
+}
+ .blogs2 a{
+    padding: 10px 60px;
+    margin: 10px 40px;
+    background-color: aliceblue;
+ }
+.blogs3 a{
+    padding: 10px 75px;
+}
 .md-salah3{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    margin-left: 20px;
+    margin-right: 20px;  
 }
-
 .transfer button{
     border-radius: 5px;
 }
 .icon, .fa-regular{
    margin-left: 20px;
 }
+/* ------------player image end------------- */
 /* ----------footer-------- */
 footer{
     margin-top: 60px;
@@ -49,12 +74,22 @@ footer{
 }
     footer h2{
         text-align: center;
-    }
-    footer, .goal a{
+ }
+footer, .goal a{
         text-align: center;
         text-decoration: none;
         margin-right: 20px;
-    }
-    .goal2 i{
+}
+.goal2 i{
         margin-left: 10px;
+}
+/* ----------footer end--------------- */
+    /* media quaries */
+    /* mobile device */
+@media only screen and (max-width:650) {
+    .special{
+        grid-template-columns: repeat(1, 1fr);
     }
+        
+        
+}

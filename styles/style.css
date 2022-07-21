@@ -82,8 +82,14 @@ footer, .goal a{
         margin-right: 20px;
 }
 .goal2 i{
-        margin-left: 10px;
+        margin-left: 10px;       
 }
+.view, .link-button{
+    margin-top: 30px;
+    justify-content: center;
+    text-align: center;
+    
+} 
 /* ----------footer end--------------- */
     /* media quaries */
     /* mobile device */
@@ -102,17 +108,21 @@ main{
     margin-top: 20px;
     margin-left: 10px;
 }
-footer, .goal{
+.view, .link-button{
+    display: none;
+}
+footer, .goal a{
    display: column;
 }
+
 }
 /* ---------tablet device------------- */
-@media only screen and (min-width:667px) and (max-width:1200px {
+@media only screen and (min-width:667px) and (max-width:1200px){
     main{
         width: 100%;
     }
-    .special1{
-        flex-direction: column-reverse;
+    .special{
+        flex-direction: column;
     }
     .md-salah3{
         grid-template-rows: repeat(2, 1fr);

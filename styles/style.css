@@ -6,6 +6,7 @@ body{
 .main{
     width: 1300px;
    margin-left: 80px;
+
 }
 header{
     background-color: rgb(187, 155, 155);
@@ -86,10 +87,34 @@ footer, .goal a{
 /* ----------footer end--------------- */
     /* media quaries */
     /* mobile device */
-@media only screen and (max-width:650) {
-    .special{
-        grid-template-columns: repeat(1, 1fr);
+@media only screen and (max-width:480px) {
+main{
+    width: 100%;
+}
+.special1{
+    flex-direction: column;
+}
+.special{
+    flex-direction: column;
+}
+.md-salah3{
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 20px;
+    margin-left: 10px;
+}
+footer, .goal{
+   display: column;
+}
+}
+/* ---------tablet device------------- */
+@media only screen and (min-width:667px) and (max-width:1200px {
+    main{
+        width: 100%;
     }
-        
-        
+    .special1{
+        flex-direction: column-reverse;
+    }
+    .md-salah3{
+        grid-template-rows: repeat(2, 1fr);
+    }
 }
